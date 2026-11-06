@@ -1,0 +1,16 @@
+{
+  "name": "mnw-signaling",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Untrusted WebSocket rendezvous relay for the mnw two-party chat",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "8.18.0"
+  }
+}
